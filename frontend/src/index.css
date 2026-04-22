@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { font-family: Inter, system-ui, sans-serif; }
+
+.input { @apply w-full rounded border border-slate-300 p-2; }
+.card { @apply rounded-xl bg-white p-4 shadow; }
+.btn { @apply rounded bg-blue-600 px-4 py-2 text-white hover:bg-blue-700; }
