@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.card {
+  @apply rounded-xl bg-white p-4 shadow-sm dark:bg-slate-800;
+}
